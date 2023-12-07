@@ -1,9 +1,18 @@
+# scikit-learn==0.24.2
+# matplotlib
+# seaborn
+# numpy
+# pandas
+# fastapi
+# tfx
+# uvicorn
+# kfp
+
 scikit-learn==0.24.2
-matplotlib
-seaborn
-numpy
+matplotlib==3.4.3
+fastapi>=0.68.0,<0.69.0
+uvicorn>=0.15.0,<0.16.0
 pandas
-fastapi
 tfx
-uvicorn
 kfp
+seaborn
