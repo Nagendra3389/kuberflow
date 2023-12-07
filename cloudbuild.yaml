@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/organic-spirit-404903/second_app', '.']
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/organic-spirit-404903/second_app']
