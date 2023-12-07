@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/kubernets-407407/second_app', '.']
+  args: ['build', '-t', 'gcr.io/kubernets-407407/kuberflow', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/kubernets-407407/second_app']
+  args: ['push', 'gcr.io/kubernets-407407/kuberflow']
